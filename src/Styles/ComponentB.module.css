@@ -5,10 +5,10 @@
     justify-content: center;
     height: 100vh;
   }
-  
   .parent_container button {
     background: transparent;
     border: none;
+    cursor: pointer;
     text-decoration: underline;
     color: blue;
     font-weight: bold;

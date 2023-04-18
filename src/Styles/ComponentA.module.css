@@ -27,11 +27,9 @@
   font-weight: bold;
   cursor: pointer;
 }
-.yellow{
-  background-color: 
-  #fcc101
+.blue {
+  background-color: #2be1bf;
 }
-.green {
-  background-color: 
-  #2be0c0
+.red {
+  background-color: rgb(252, 45, 45);
 }

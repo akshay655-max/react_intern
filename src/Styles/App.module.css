@@ -1,5 +1,5 @@
 .parent_container,
-.circle {
+#circle {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,14 +10,19 @@
   width: 14%;
   height: 30%;
   border-radius: 10px;
-  background-color: rgb(211, 211, 211);
+  background-color: rgb(230, 226, 226);
   padding: 3%;
 }
-.circle {
+#circle {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+}
+.yellow {
   background-color: #fcc200;
+}
+.green {
+  background-color: #2be1bf;
 }
 #color_change_btn {
   margin-top: 40px;
@@ -26,10 +31,4 @@
   border: none;
   font-weight: bold;
   cursor: pointer;
-}
-.blue {
-  background-color: #2be1bf;
-}
-.red {
-  background-color: rgb(252, 45, 45);
 }
